@@ -1,0 +1,52 @@
+# Rider IDE
+.idea/
+*.iml
+
+# Visual Studio / .NET Build Artifacts
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Rider .NET-specific directories
+.idea/
+.idea_modules/
+.sln.iml
+*.sln.ide
+
+# JetBrains Rider-generated files
+*.dotSettings
+*.dotSettings.user
+
+# Build Artifacts
+.DS_Store
+Thumbs.db
+*.dbmdl
+*.pdb
+*.lock.json
+project.lock.json
+packages/
+nuget.config
+.nuget/
+
+# Logs and User-Specific Files
+*.log
+logs/
+appsettings.Development.json
+appsettings.Local.json
+
+# Rider Local History
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf/
+.idea/httpRequests
+
+# Rider Caches (optional)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/vcs.xml
+.idea/**/shelf/
