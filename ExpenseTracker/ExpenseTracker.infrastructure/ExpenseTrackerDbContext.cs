@@ -1,4 +1,5 @@
-﻿using ExpenseTracker.infrastructure.Common;
+﻿using ExpenseTracker.infrastructure.Models;
+using ExpenseTracker.infrastructure.Models.Common;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExpenseTracker.infrastructure;

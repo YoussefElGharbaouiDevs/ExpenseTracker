@@ -1,5 +1,5 @@
-﻿using ExpenseTracker.infrastructure.Common;
-using ExpenseTracker.infrastructure.Data.Migrations.SqlServer;
+﻿using ExpenseTracker.infrastructure.Data.Migrations.SqlServer;
+using ExpenseTracker.infrastructure.Models.Common;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExpenseTracker.infrastructure.Repositories;

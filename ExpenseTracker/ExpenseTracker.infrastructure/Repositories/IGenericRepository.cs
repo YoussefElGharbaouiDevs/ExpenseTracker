@@ -1,4 +1,4 @@
-﻿using ExpenseTracker.infrastructure.Common;
+﻿using ExpenseTracker.infrastructure.Models.Common;
 
 namespace ExpenseTracker.infrastructure.Repositories;
 
