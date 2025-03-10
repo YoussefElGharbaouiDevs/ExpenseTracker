@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ExpenseTracker.infrastructure.Common;
+namespace ExpenseTracker.infrastructure.Models.Common;
 
 public class CurrencyEntity : BaseEntity
 {

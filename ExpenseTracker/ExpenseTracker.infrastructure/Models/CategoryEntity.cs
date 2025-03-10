@@ -1,6 +1,6 @@
-﻿using ExpenseTracker.infrastructure.Common;
+﻿using ExpenseTracker.infrastructure.Models.Common;
 
-namespace ExpenseTracker.infrastructure;
+namespace ExpenseTracker.infrastructure.Models;
 
 public class CategoryEntity : BaseEntity
 {
