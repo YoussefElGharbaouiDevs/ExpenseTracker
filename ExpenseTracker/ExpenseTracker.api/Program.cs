@@ -1,5 +1,7 @@
+using ExpenseTracker.api.Utils.Extensions;
 using ExpenseTracker.infrastructure;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,13 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ExpenseTrackerDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+// Register services
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
+builder.Services.AddRepositories();
+builder.Services.AddServices();
+
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

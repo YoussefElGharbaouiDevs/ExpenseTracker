@@ -38,9 +38,11 @@ public class GenericRepository<T>(ExpenseTrackerDbContext context) : IGenericRep
         await _context.SaveChangesAsync();
     }
 
-    public async Task DeleteAsync(T entity)
+    public async Task<bool> DeleteAsync(T entity)
     {
-        _context.Set<T>().Remove(entity);
-        await _context.SaveChangesAsync();
+        var element = await _context.Set<T>().FindAsync(entity.Id);
+        if (element is null) return false;
+        _context.Set<T>().Remove(element);
+        return true;
     }
 }

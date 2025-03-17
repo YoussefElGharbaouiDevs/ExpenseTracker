@@ -2,7 +2,7 @@
 
 namespace ExpenseTracker.infrastructure.Models;
 
-public class RecurrenceFrequency : BaseEntity
+public class RecurrenceFrequencyEntity : BaseEntity
 {
     public string Name { get; set; }
 

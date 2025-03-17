@@ -29,7 +29,7 @@ public class ExpenseEntity : BaseEntity
     
     public virtual required UserEntity User { get; set; }
     
-    public virtual RecurrenceFrequency? RecurrenceFrequency { get; set; }
+    public virtual RecurrenceFrequencyEntity? RecurrenceFrequency { get; set; }
     
     public virtual ICollection<AttachmentEntity> Attachments { get; set; } = new List<AttachmentEntity>();
 }

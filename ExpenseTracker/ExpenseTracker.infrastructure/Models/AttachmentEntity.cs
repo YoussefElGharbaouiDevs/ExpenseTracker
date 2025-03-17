@@ -18,5 +18,5 @@ public class AttachmentEntity : BaseEntity
     
     public virtual required ExpenseEntity ExpenseEntity { get; set; }
     
-    public virtual required AttachmentType AttachmentType { get; set; }
+    public virtual required AttachmentTypeEntity AttachmentTypeEntity { get; set; }
 }

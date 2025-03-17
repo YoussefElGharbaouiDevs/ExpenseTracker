@@ -2,7 +2,7 @@
 
 namespace ExpenseTracker.infrastructure.Models;
 
-public class AttachmentType : BaseEntity
+public class AttachmentTypeEntity : BaseEntity
 {
     public string Name { get; set; }
     

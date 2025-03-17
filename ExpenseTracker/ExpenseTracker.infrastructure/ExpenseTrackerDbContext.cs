@@ -16,11 +16,11 @@ public class ExpenseTrackerDbContext : DbContext
     
     public virtual DbSet<AttachmentEntity> Attachment { get; set; }
     
-    public virtual DbSet<AttachmentType> AttachmentType { get; set; }
+    public virtual DbSet<AttachmentTypeEntity> AttachmentType { get; set; }
     
     public virtual DbSet<CategoryEntity> Category { get; set; }
     
-    public virtual DbSet<RecurrenceFrequency> RecurrenceFrequency { get; set; }
+    public virtual DbSet<RecurrenceFrequencyEntity> RecurrenceFrequency { get; set; }
     
     public virtual DbSet<ExpenseEntity> Expense { get; set; }
 
